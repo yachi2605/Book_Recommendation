@@ -29,7 +29,7 @@ convenient high quality explicit feedback, which includes explicit input by user
 regarding their interest in item or implicit feedback by inferring user preferences
 indirectly through observing user behavior.
 
-![Fig 1 Recommendation Engine](img\Phases.png)
+![Fig 1 Recommendation Engine](Phases.png)
 
 
 ##### 1.2.1.1 Explicit feedback
