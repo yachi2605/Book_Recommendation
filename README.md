@@ -1,24 +1,3 @@
-## Contents 
-1.PROJECT DESCRIPTION
-1.1 INTRODUCTION
-1.2 PHASES OF RECOMMENDATION PROCESS
-1.2.1 Information Collection Phase
-1.2.1.1 Explicit feedback
-1.2.1.2 Implicit feedback
-1.2.2 Learning Phase
-1.2.3 Prediction/Recommendation Phase
-1.3 SYSTEM FLOWCHART
-1.4 DATA UNDERSTANDING
-1.5 EXPLORATORY DATA ANALYSIS
-1.6 MODELLING TECHNIQUES
-1.6.1 Simple Recommender System
-1.6.2 Content – Based Filtering
-1.6.2.1 TF-IDF
-1.6.2.2 Cosine Similarity
-1.6.3 Collaborative Filtering
-1.6.3.1 Matrix Factorization
-
-
 ## 1. PROJECT DESCRIPTION
 ### 1.1 INTRODUCTION
 
