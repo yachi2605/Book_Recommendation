@@ -1,22 +1,22 @@
-# COntent 
-## 1. PROJECT DESCRIPTION
-### 1.1 INTRODUCTION
-### 1.2 PHASES OF RECOMMENDATION PROCESS
-#### 1.2.1 Information Collection Phase
-##### 1.2.1.1 Explicit feedback
-##### 1.2.1.2 Implicit feedback
-#### 1.2.2 Learning Phase
-#### 1.2.3 Prediction/Recommendation Phase
-## 1.3 SYSTEM FLOWCHART
-## 1.4 DATA UNDERSTANDING
-## 1.5 EXPLORATORY DATA ANALYSIS
-## 1.6 MODELLING TECHNIQUES
-### 1.6.1 Simple Recommender System
-### 1.6.2 Content – Based Filtering
-#### 1.6.2.1 TF-IDF
-#### 1.6.2.2 Cosine Similarity
-### 1.6.3 Collaborative Filtering
-#### 1.6.3.1 Matrix Factorization
+## Contents 
+1.PROJECT DESCRIPTION
+1.1 INTRODUCTION
+1.2 PHASES OF RECOMMENDATION PROCESS
+1.2.1 Information Collection Phase
+1.2.1.1 Explicit feedback
+1.2.1.2 Implicit feedback
+1.2.2 Learning Phase
+1.2.3 Prediction/Recommendation Phase
+1.3 SYSTEM FLOWCHART
+1.4 DATA UNDERSTANDING
+1.5 EXPLORATORY DATA ANALYSIS
+1.6 MODELLING TECHNIQUES
+1.6.1 Simple Recommender System
+1.6.2 Content – Based Filtering
+1.6.2.1 TF-IDF
+1.6.2.2 Cosine Similarity
+1.6.3 Collaborative Filtering
+1.6.3.1 Matrix Factorization
 
 
 ## 1. PROJECT DESCRIPTION
@@ -50,7 +50,7 @@ convenient high quality explicit feedback, which includes explicit input by user
 regarding their interest in item or implicit feedback by inferring user preferences
 indirectly through observing user behavior.
 
-![Fig 1 Recommendation Engine](img/image.png)
+![Fig 1 Recommendation Engine](img\Phases.png)
 
 
 ##### 1.2.1.1 Explicit feedback
@@ -82,12 +82,11 @@ of the user. Fig. 8.2.1 highlights the recommendation phases.
 
 Example :
 
-![Fig 2 Example of Recommendation system](img/image-1.png)
-
+![Fig 2 Example of Recommendation system](img\Example.png)
 
 ## 1.3 SYSTEM FLOWCHART
 
-![Fig 3 System Flowcart](image.png)
+![Fig 3 System Flowcart](img\Flowchart.png)
 
 ## 1.4 DATA UNDERSTANDING
 
@@ -106,7 +105,7 @@ publishDate, author
 
 ❖ How is the rating for all books distributed?
 
-![Fig 4 Average Rating Distribution ](image-1.png)
+![Fig 4 Average Rating Distribution ](img\rating.png)
 
 
 Since this is the list of 10,000 popular books, the majority of the books have an
@@ -115,7 +114,7 @@ average value of 4.02.
 
 ❖ Does rating count affect the average rating?
 
-![Fig 5 Rating vs count](ratingvscount.png)
+![Fig 5 Rating vs count](img\ratingvscount.png)
 
 
 People who rate < 50 books tend to give higher ratings. People start to give lower rating if
@@ -125,16 +124,16 @@ system, so that people end up reading books they don't like.
 
 ❖ Top rated books
 
-![Fig 6 Top Books](topRatedbg.png)
+![Fig 6 Top Books](img\topRatedbg.png)
 
 ❖ Author with maximum books & Rating
 
-![Fig 7 Top Authors](image-2.png)
+![Fig 7 Top Authors](img\Author_withRating.png)
 
 Here, If we see the author with respect to rating then, J.K. Rowling, Suzanne Collins
 followed by Stephenie Meyer.
 
-![Fig 8 Author with Max books](mostbookauthor.png)
+![Fig 8 Author with Max books](img\mostbookauthor.png)
 
 But, James Patterson followed by Stephen King & Nora Roberts have Maximum
 Number of books.
@@ -142,7 +141,7 @@ Number of books.
 ❖ Genre Distribution
 
 
-![Fig 9 Genre Distribution](populargenres.png)
+![Fig 9 Genre Distribution](img\populargenres.png)
 
 In all listed genres Fiction is most rated followed by fantasy & romance.
 
@@ -164,7 +163,7 @@ average_rating and rating_count.
 
 New Rating Score formula used in Internet Movie Database (IMDb)
 
-![Fig 10 New Rating Score Formula](formula.png)
+![Fig 10 New Rating Score Formula](img\formula.png)
 
 where:
 v = number of ratings ( ratings_count )
@@ -217,7 +216,7 @@ tf-idf(t, d) = tf(t, d) * idf(t)
 
 #### 1.6.2.2 Cosine Similarity
 
-![Fig 11 Cosine Similarity](image-3.png)
+![Fig 11 Cosine Similarity](img\Cosine.png)
 
 1. Vector Representation: Each item is represented as a vector in a multi-dimensional space, where each
 dimension corresponds to a feature or attribute of the item.
@@ -232,7 +231,7 @@ recommendations from someone with tastes similar to themselves. Collaborative fi
 encompasses techniques for matching people with similar interests and
 making recommendations on this basis.
 
-![Content Based VS Collaborative ](image-4.png)
+![Content Based VS Collaborative ](img\Comparison.png)
 
 #### 1.6.3.1 Matrix Factorization
 
