@@ -61,11 +61,11 @@ of the user. Fig. 8.2.1 highlights the recommendation phases.
 
 Example :
 
-![Fig 2 Example of Recommendation system](img\Example.png)
+![Fig 2 Example of Recommendation system](img/Example.png)
 
 ## 1.3 SYSTEM FLOWCHART
 
-![Fig 3 System Flowcart](img\Flowchart.png)
+![Fig 3 System Flowcart](img/Flowchart.png)
 
 ## 1.4 DATA UNDERSTANDING
 
@@ -84,7 +84,7 @@ publishDate, author
 
 ❖ How is the rating for all books distributed?
 
-![Fig 4 Average Rating Distribution ](img\rating.png)
+![Fig 4 Average Rating Distribution ](img/rating.png)
 
 
 Since this is the list of 10,000 popular books, the majority of the books have an
@@ -93,7 +93,7 @@ average value of 4.02.
 
 ❖ Does rating count affect the average rating?
 
-![Fig 5 Rating vs count](img\ratingvscount.png)
+![Fig 5 Rating vs count](img/ratingvscount.png)
 
 
 People who rate < 50 books tend to give higher ratings. People start to give lower rating if
@@ -103,16 +103,16 @@ system, so that people end up reading books they don't like.
 
 ❖ Top rated books
 
-![Fig 6 Top Books](img\topRatedbg.png)
+![Fig 6 Top Books](img/topRatedbg.png)
 
 ❖ Author with maximum books & Rating
 
-![Fig 7 Top Authors](img\Author_withRating.png)
+![Fig 7 Top Authors](img/Author_withRating.png)
 
 Here, If we see the author with respect to rating then, J.K. Rowling, Suzanne Collins
 followed by Stephenie Meyer.
 
-![Fig 8 Author with Max books](img\mostbookauthor.png)
+![Fig 8 Author with Max books](img/mostbookauthor.png)
 
 But, James Patterson followed by Stephen King & Nora Roberts have Maximum
 Number of books.
@@ -120,7 +120,7 @@ Number of books.
 ❖ Genre Distribution
 
 
-![Fig 9 Genre Distribution](img\populargenres.png)
+![Fig 9 Genre Distribution](img/populargenres.png)
 
 In all listed genres Fiction is most rated followed by fantasy & romance.
 
@@ -142,7 +142,7 @@ average_rating and rating_count.
 
 New Rating Score formula used in Internet Movie Database (IMDb)
 
-![Fig 10 New Rating Score Formula](img\formula.png)
+![Fig 10 New Rating Score Formula](img/formula.png)
 
 where:
 v = number of ratings ( ratings_count )
@@ -195,7 +195,7 @@ tf-idf(t, d) = tf(t, d) * idf(t)
 
 #### 1.6.2.2 Cosine Similarity
 
-![Fig 11 Cosine Similarity](img\Cosine.png)
+![Fig 11 Cosine Similarity](img/Cosine.png)
 
 1. Vector Representation: Each item is represented as a vector in a multi-dimensional space, where each
 dimension corresponds to a feature or attribute of the item.
@@ -210,7 +210,7 @@ recommendations from someone with tastes similar to themselves. Collaborative fi
 encompasses techniques for matching people with similar interests and
 making recommendations on this basis.
 
-![Content Based VS Collaborative ](img\Comparison.png)
+![Content Based VS Collaborative ](img/Comparison.png)
 
 #### 1.6.3.1 Matrix Factorization
 
