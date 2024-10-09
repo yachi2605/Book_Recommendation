@@ -14,19 +14,6 @@ from surprise import SVD,Reader,Dataset # type: ignore
 
 
 # data loading
-
-
-
-# Initialize Streamlit page configurations
-st.set_page_config(
-    page_title="Book Recommender",
-    page_icon="📔",
-    layout="centered",
-    initial_sidebar_state="auto",
-    menu_items=None
-)
-
-
 @st.cache_data()
 def read_book_data():
     return pd.read_csv('Data/Cleaned_data.csv')
@@ -155,7 +142,7 @@ def algorithm_page():
     model, book_num = st.columns((2, 1))
     selected_model = model.selectbox('Select model',
                                      options=['Simple Recommender', 'Content Based Filtering',
-                                              'Content Based Filtering+','Collaborative Filtering'])
+                                            'Collaborative Filtering'])
     selected_book_num = book_num.selectbox('Number of books',
                                            options=[5, 10, 15, 20, 25])
 

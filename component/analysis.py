@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def analysis_page():
-       st.title("Glimpse of Analysis 📈")
+       st.title("Glimpse of Recommendation 📈")
          
 
        # Load the PNG image
@@ -19,12 +19,12 @@ def analysis_page():
 
        
        # Load the PNG image
-       image = Image.open(r"img\populargenres.png")
+       image = Image.open(r'img\Comparison.png')
        # Display the image using Streamlit
        st.image(image, use_column_width=True)
 
          # Load the PNG image
-       image = Image.open(r"img\ratingvscount.png")
+       image = Image.open(r"img\Techs.jpg")
        # Display the image using Streamlit
        st.image(image, use_column_width=True)
 
