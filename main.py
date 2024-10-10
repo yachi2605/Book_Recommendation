@@ -1,5 +1,3 @@
-import os
-os.system('pip install scikit-learn')
 
 import streamlit as st
 st.set_page_config(
