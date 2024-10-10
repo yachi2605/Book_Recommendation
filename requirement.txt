@@ -1,3 +1,4 @@
+--no-cache-dir
 streamlit
 streamlit-option-menu
 scikit-learn
@@ -5,4 +6,4 @@ pandas
 numpy
 scikit-surprise
 Pillow
-sklearn
+
