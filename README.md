@@ -223,7 +223,7 @@ where m is the number of users (or queries) and n is the number of items, the mo
     of the feedback matrix A.
 
 
-🚀 How to Run This Streamlit App
+#### 🚀 How to Run This Streamlit App
 Step 1: Fork the Repository
 Click on the Fork button at the top-right corner of this repository to create a copy under your own GitHub account.
 
